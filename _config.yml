@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (username.github.io) then use these settings:
-url: "http://lxcode.github.io"
+url: "https://lxcode.github.io"
 baseurl: ""
 
 # Of course don't forget to change the username and projectname to YOUR username and project
@@ -23,9 +23,9 @@ avatar: "https://avatars3.githubusercontent.com/u/1959603?v=3&s=460"
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
+  Home: "https://lxcode.github.io"
   About: "aboutme"
-#  Contact: "contact"
+# Contact: "contact"
 
 # --- Footer options --- #
 
