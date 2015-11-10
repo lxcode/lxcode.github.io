@@ -3,7 +3,7 @@ layout: post
 title: More useful console apps
 ---
 
-On my software (http://grumplicio.us/software.html) page, I mention a few
+On my software (<http://grumplicio.us/software.html>) page, I mention a few
 console applications that I use regularly, like tmux, mutt, w3m, cmus, and
 calcurse. I've recently discovered a couple more applications that are worth
 knowing about if you prefer to do most of your work in a terminal-based
@@ -11,7 +11,7 @@ environment.
 
 Taskwarrior
 
-http://taskwarrior.org/projects/show/taskwarrior
+<http://taskwarrior.org/projects/show/taskwarrior>
 
 On the face of it, this project appears to be absurd: "It's a list of TODOs. I
 already have a list of TODOs", you might say. However, after giving it a shot,
@@ -43,7 +43,7 @@ sure that will come before too long.
 
 Newsbeuter
 
-http://newsbeuter.org
+<http://newsbeuter.org>
 
 On OS X, there's not really a decent non-commercial RSS reader available,
 unless you want to run Thunderbird all the time. I'd been using Liferea under

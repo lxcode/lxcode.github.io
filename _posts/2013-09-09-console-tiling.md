@@ -11,7 +11,7 @@ looks freaking horrible compared to all the other applications. As such, I've
 tried a couple different solutions to replicate dwm+urxvt functionality within
 iTerm2.
 
-1) Native iTerm2 panes. http://www.iterm2.com
+1. Native iTerm2 panes. <http://www.iterm2.com>
 
 Using iTerm's builtin panes, you can do horizontal or vertical splits and
 switch between them. I configured iTerm to use cmd-j and cmd-k to navigate
@@ -21,7 +21,7 @@ management. Splits all have to be manually configured, are a pain in the ass to
 rearrange, and you can't temporarily full-screen a pane. Wasn't scratching my
 dwm itch.
 
-2) tmux. http://tmux.sourceforge.net/
+2. tmux. <http://tmux.sourceforge.net/>
 
 I use tmux on my shell server, and I'm pretty used to it. However, the split
 functionality has the same kind of shortcomings, where rearranging and resizing
@@ -32,7 +32,7 @@ otherwise, it's more of a multiplexer than a window manager. Also, I use tmux
 on a remote host to attach to a long-running session, and nesting two tmux
 instances is even more painful.
 
-3) dvtm. http://www.brain-dump.org/projects/dvtm/
+3. dvtm. <http://www.brain-dump.org/projects/dvtm/>
 
 dvtm is essentially dwm for the terminal --- it does dynamic window management,
 rearranging windows for you in a stack instead of you having to decide where to
@@ -45,7 +45,7 @@ tmux, and would have to keep them both straight). So, it's *almost* great, but
 a toss-up between this and using native panes when it comes to convenience.
 Then, I discovered:
 
-http://tangledhelix.com/blog/2012/04/28/iterm2-keymaps-for-tmux/
+<http://tangledhelix.com/blog/2012/04/28/iterm2-keymaps-for-tmux/>
 
 Ding! Brilliant. Now I can configure my keybindings in iTerm so that the keys I
 use in dwm will perform the exact same actions in dvtm. I kept the stock escape
@@ -58,7 +58,7 @@ are some artifact issues, but I think it's worth it.
 
 I've put my iTerm2 config here:
 
-https://github.com/lxcode/dotfiles/blob/master/iterm2.plist
+<https://github.com/lxcode/dotfiles/blob/master/iterm2.plist>
 
 Ideally, I'd like to see iTerm integrate dynamic tiling, but for the moment,
 this is about as close as you can come.
