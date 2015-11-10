@@ -11,7 +11,9 @@ looks freaking horrible compared to all the other applications. As such, I've
 tried a couple different solutions to replicate dwm+urxvt functionality within
 iTerm2.
 
-1. Native iTerm2 panes. <http://www.iterm2.com>
+Native iTerm2 panes.
+--------------------
+<http://www.iterm2.com>
 
 Using iTerm's builtin panes, you can do horizontal or vertical splits and
 switch between them. I configured iTerm to use cmd-j and cmd-k to navigate
@@ -21,7 +23,9 @@ management. Splits all have to be manually configured, are a pain in the ass to
 rearrange, and you can't temporarily full-screen a pane. Wasn't scratching my
 dwm itch.
 
-2. tmux. <http://tmux.sourceforge.net/>
+tmux.
+-----
+<http://tmux.sourceforge.net/>
 
 I use tmux on my shell server, and I'm pretty used to it. However, the split
 functionality has the same kind of shortcomings, where rearranging and resizing
@@ -32,7 +36,9 @@ otherwise, it's more of a multiplexer than a window manager. Also, I use tmux
 on a remote host to attach to a long-running session, and nesting two tmux
 instances is even more painful.
 
-3. dvtm. <http://www.brain-dump.org/projects/dvtm/>
+dvtm.
+-----
+<http://www.brain-dump.org/projects/dvtm/>
 
 dvtm is essentially dwm for the terminal --- it does dynamic window management,
 rearranging windows for you in a stack instead of you having to decide where to
@@ -53,7 +59,7 @@ sequence of ctrl-g to avoid clobbering tmux commands, and configured iTerm to
 send 0x07 0xwhatever for cmd-j/k/l/h/i/x/t/g/b/enter. Now I navigate simply and
 quickly with the command key instead of two-step escaped commands, and can run
 a remote tmux session with no problem --- I never have to hit ctrl-g at all.
-And I get to look at pretty Retina fonts. Scrolling is pretty slow, and there 
+And I get to look at pretty Retina fonts. Scrolling is pretty slow, and there
 are some artifact issues, but I think it's worth it.
 
 I've put my iTerm2 config here:
