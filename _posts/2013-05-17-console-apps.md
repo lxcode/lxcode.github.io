@@ -10,6 +10,7 @@ knowing about if you prefer to do most of your work in a terminal-based
 environment.
 
 Taskwarrior
+-----------
 
 <http://taskwarrior.org/projects/show/taskwarrior>
 
@@ -42,6 +43,7 @@ sure that will come before too long.
 
 
 Newsbeuter
+----------
 
 <http://newsbeuter.org>
 
