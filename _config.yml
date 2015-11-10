@@ -10,7 +10,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: lx's incredible .plan
+title: lx's credible .plan
 
 # Short description of your site
 description: Thoughts and occasional feelings.
@@ -69,6 +69,7 @@ timezone: "America/Los Angeles"
 markdown: kramdown
 highlighter: pygments
 permalink: /:year-:month-:day-:title
+gems: [jekyll-paginate]
 paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
