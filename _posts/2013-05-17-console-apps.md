@@ -19,23 +19,23 @@ already have a list of TODOs", you might say. However, after giving it a shot,
 I've found it to be actually quite useful. The reasons why I like it better
 than my previous flat file approach are:
 
-    * Easy tagging and filtering. I primarily use +home and +work to keep my
-      full task list easily filterable.
+* Easy tagging and filtering. I primarily use +home and +work to keep my
+  full task list easily filterable.
 
-    * Automatic urgency calculation. Taskwarrior is smart about figuring out
-      which stuff you actually need to work on next --- it looks at the age of
-      the task, your chosen priority, the due date and other metrics to
-      determine how tasks are sorted. I've found this to be quite useful.
+* Automatic urgency calculation. Taskwarrior is smart about figuring out
+  which stuff you actually need to work on next --- it looks at the age of
+  the task, your chosen priority, the due date and other metrics to
+  determine how tasks are sorted. I've found this to be quite useful.
 
-    * It handles things like projects, dependencies, notes and annotations
-      attached to tasks. It knows that your blocking dependencies have higher
-      priority.
+* It handles things like projects, dependencies, notes and annotations
+  attached to tasks. It knows that your blocking dependencies have higher
+  priority.
 
-    * Lots of shortcuts. I just have to say that something is due at "eom", and
-      it'll do the right thing.
+* Lots of shortcuts. I just have to say that something is due at "eom", and
+  it'll do the right thing.
 
-    * It keeps things together. Tasks are easy to synchronize between a remote
-      server and your local machine, using the "merge" command. 
+* It keeps things together. Tasks are easy to synchronize between a remote
+  server and your local machine, using the "merge" command. 
 
 Anyway, it's worth a try to see if it works for you. The only thing that it
 really lacks is a modern way to integrate to calendaring applications, but I'm
