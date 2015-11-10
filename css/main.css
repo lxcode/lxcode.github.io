@@ -3,10 +3,10 @@
 /* --- General --- */
 
 body {
-  text-align: justify;
+/*  text-align: justify;
   text-justify: distribute;
   hyphens: auto
-  word-break: break-all;
+  word-break: break-all; */
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern";
   -webkit-font-feature-settings: "kern";
