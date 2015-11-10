@@ -24,7 +24,7 @@ avatar: "https://avatars3.githubusercontent.com/u/1959603?v=3&s=460"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About Me: "aboutme"
+  About: "aboutme"
 #  Contact: "contact"
 
 # --- Footer options --- #
