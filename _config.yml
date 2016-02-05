@@ -19,7 +19,7 @@ description: Thoughts and occasional feelings.
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "img/avatar.png"
+avatar: "/img/avatar.png"
 
 # List of links in the navigation bar
 navbar-links:
@@ -67,8 +67,9 @@ url-pretty: "lxcode.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # Output options (more information on Jekyll's site)
 timezone: "America/Los Angeles"
 markdown: kramdown
-highlighter: pygments
-permalink: /:year-:month-:day-:title
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+# below needed?
 gems: [jekyll-paginate]
 paginate: 5
 
@@ -88,9 +89,12 @@ defaults:
 
 # Exclude these files from production site
 exclude:
-  - CNAME
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
+  - CNAME
+  - Vagrantfile
 
 # prose.io config
 prose:
