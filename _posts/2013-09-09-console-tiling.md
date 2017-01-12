@@ -64,7 +64,7 @@ are some artifact issues, but I think it's worth it.
 
 I've put my iTerm2 config here:
 
-<https://github.com/lxcode/dotfiles/blob/master/iterm2.plist>
+<https://github.com/lxcode/dotfiles/blob/master/com.googlecode.iterm2.plist>
 
 Ideally, I'd like to see iTerm integrate dynamic tiling, but for the moment,
 this is about as close as you can come.
